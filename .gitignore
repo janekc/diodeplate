@@ -8,6 +8,7 @@
 *.kicad_pcb-bak
 *.sch-bak
 *~
+*auto_saved_files#
 _autosave-*
 *.tmp
 *-save.pro
@@ -20,6 +21,9 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+# backup folder
+diodeplate-backups/
 
 # Exported BOM files
 *.xml
