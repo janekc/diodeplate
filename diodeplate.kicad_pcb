@@ -434,10 +434,9 @@
     (fp_line (start 2.794006 -1.778004) (end 2.794006 1.778004) (layer "F.SilkS") (width 0.151994) (tstamp d83d028f-2f25-4a28-b71e-b23a22412de8))
     (fp_arc (start 0 -0.635002) (mid 0.317501 -0.317501) (end 0 0) (layer "F.SilkS") (width 0.151994) (tstamp 06f392a3-2fab-4266-ad7f-80f6e4d1dfc4))
     (fp_arc (start 0 0.635001) (mid -0.074951 0.3175) (end 0 0) (layer "F.SilkS") (width 0.151994) (tstamp 2ae7e05f-a42b-4ec9-9c7b-33cb11335dfa))
-    (fp_circle (center -2.275083 1.620015) (end -2.24511 1.620015) (layer "F.SilkS") (width 0.059995) (fill none) (tstamp 203cd4af-19e0-4c66-8fa1-d7d3aa5a6313))
-    (pad "1" smd rect locked (at -1.853442 0 90) (size 1.40668 3.499213) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -1.853442 0 90) (size 1.40668 3.499213) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "VBUS") (pinfunction "1") (pintype "unspecified") (tstamp 5068f6d8-3efc-48a6-b130-fcf205a7f141))
-    (pad "2" smd rect locked (at 1.853442 0 90) (size 1.40668 3.499213) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at 1.853442 0 90) (size 1.40668 3.499213) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "+5V") (pinfunction "2") (pintype "unspecified") (tstamp 2a51dd33-6952-4952-a44e-238e4b2fae7b))
     (model "${GLOWINGKITTYPARTS}/footprint/packages3d/F1812.wrl"
       (offset (xyz 0 0 0))
