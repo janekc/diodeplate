@@ -53,7 +53,7 @@
     )
     (pad_to_mask_clearance 0)
     (pcbplotparams
-      (layerselection 0x00010fc_ffffffff)
+      (layerselection 0x0101008_7ffffffe)
       (disableapertmacros false)
       (usegerberextensions false)
       (usegerberattributes true)
@@ -79,9 +79,9 @@
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 5)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory "")
     )
@@ -15738,6 +15738,7 @@
       (xy 171.488559 174.754504)
     ) (layer "F.SilkS") (width 0.032) (fill solid) (tstamp fd84670d-5fcb-441f-bb18-6ec79e207cc3))
   (gr_circle (center 216.6 142.62) (end 298.6 142.62) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 780901b8-bc9b-4971-bafb-df8f09cd317c))
+  (gr_rect (start 119.7 48.49) (end 314.43 239.49) (layer "User.3") (width 0.15) (fill none) (tstamp 1948fc1d-f5de-4d1e-8e77-8247c908cb7d))
 
   (segment (start 173.45 82.64) (end 174.9025 81.1875) (width 1) (layer "F.Cu") (net 1) (tstamp 004bfc64-031d-4ca4-8a85-a3068c106db7))
   (segment (start 279.251232 176.13) (end 275.67 179.711232) (width 1) (layer "F.Cu") (net 1) (tstamp 0058ddd7-c9ad-4d0c-a085-6a350dfd6b99))
